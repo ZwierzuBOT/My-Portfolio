@@ -480,6 +480,14 @@ body {
     transform: scale(110%);
   }
 }
+@media screen and (max-width: 375px) {
+  .more {
+    top: 25%;
+  }
+  .threeDImage {
+    left: 40%;
+  }
+}
 @media screen and (max-width: 320px) {
   .Header .Info .HeaderBtn {
     font-size: 1.5em;
