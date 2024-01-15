@@ -480,6 +480,17 @@ body {
     transform: scale(110%);
   }
 }
+@media screen and (min-width: 390px) and (max-width: 390px) and (min-height: 844px) and (max-height: 844px) {
+  .more {
+    top: 25%;
+  }
+  .threeDImage {
+    left: 40%;
+    top: 60%;
+    width: 60%;
+    height: 40%;
+  }
+}
 @media screen and (max-width: 425px) {
   .more {
     top: 25%;
