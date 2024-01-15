@@ -1,5 +1,5 @@
 
-import { faCss3Alt, faFacebook, faGithub, faJs, faLinkedin, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faCss3Alt, faFacebook, faGithub, faJsSquare, faLinkedin, faReact } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const LearnMore = () => {
@@ -24,7 +24,7 @@ const LearnMore = () => {
 
             <div className="learnMore">
                 <h3 className="up">Best skills on:</h3>
-                <div className="iconLink"><FontAwesomeIcon icon={faJs} className="fontIcon"/></div>
+                <div className="iconLink"><FontAwesomeIcon icon={faJsSquare} className="fontIcon"/></div>
                 <div className="iconLink"><FontAwesomeIcon icon={faReact} className="fontIcon"/></div>
                 <div className="iconLink"><FontAwesomeIcon icon={faCss3Alt} className="fontIcon"/></div>
             </div>
