@@ -1,0 +1,50 @@
+@import "./coolFuncs";
+@import "./colors";
+
+.more{
+    width: 40%;
+    height: 40%;
+    margin-top: 10%;
+    margin-left: 5%;
+
+    @include centering(space-evenly,center);
+    flex-direction: row;
+    
+    .learnMore{
+        width: 40%;
+        height: 60%;
+        @include centering(space-evenly,center);
+        position: relative;
+
+        .up{
+            position: absolute;
+            left: 5%;
+            top: 10%;
+            color: $coolYellow;
+        }
+
+        .iconLink{
+            width: 10%;
+            height: 20%;
+            @include centering(space-evenly, center);
+
+            .fontIcon{
+                width: 100%;
+                height: 100%;
+                color: $coolYellow;
+                background-color: $mainGray;
+                padding: 1em;
+                border-radius: 1em;
+                transition: all .5s ease-in-out;
+                &:hover{
+                    color: $mainGray;
+                    background-color: $coolYellow;
+                    transform: scale(120%);
+                }
+
+                
+            }
+        }
+    }
+
+}

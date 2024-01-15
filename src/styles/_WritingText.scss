@@ -1,0 +1,43 @@
+@import "./colors";
+@import "./coolFuncs";
+
+.textDiv {
+  position: relative;
+  width: 90%;
+  height: 20%;
+  margin-top: 10%;
+  margin-left: 0%;
+  font-size: 1.5em;
+  @include centering(space-between, center);
+  word-spacing: .2em;
+
+ 
+
+    .intro {
+      color: $mainWhite;
+      font-size: 2em;
+      height: 100%;
+      width: 10%;
+      @include centering(right, center);
+    }
+
+    .Typewriter {
+      white-space: nowrap;
+      overflow: hidden;
+      font-size: 2em;
+      color: $coolYellow;
+      margin-left: 1%;
+      height: 100%;
+      width: 90%;
+      @include centering(left, center);
+    }
+
+    .meTekst{
+      width: 45%;
+      position: absolute;
+      top: 90%;
+      left: 7%;
+      color: $mainGrayFont;
+    }
+}
+

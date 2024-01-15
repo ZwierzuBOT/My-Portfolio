@@ -1,0 +1,45 @@
+@import "../styles/coolFuncs";
+@import "../styles/colors";
+
+.Header {
+  width: 100%;
+  height: 15%;
+  background-color: #efefef;
+  border-bottom: 1em solid $coolYellow;
+  z-index: 3;
+  position: absolute;
+  right: 0;
+  top: 0;
+  @include centering(space-between, center);
+
+  .Info {
+    width: 100%;
+    height: 100%;
+    background-color: $mainGray;
+    @include centering(space-evenly, center);
+    
+    .HeaderBtn{
+        color: $mainWhite;
+        background-color: transparent;
+        width: 50%;
+        height: 100%;
+        cursor: pointer;
+        font-size: 2em;
+        position: relative;
+        transition: all .3s ease-in-out;
+    }
+    #About:hover{
+        color: $mainBlack;
+        background-color: $coolYellow;
+    }
+    #Contact:hover{
+        color: $mainBlack;
+        background-color: $coolYellow;
+    }
+    #Projects:hover{
+        color: $mainBlack;
+        background-color: $coolYellow;
+    }
+  }
+}
+

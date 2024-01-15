@@ -1,0 +1,134 @@
+
+@import "../styles/coolFuncs";
+@import "../styles/colors";
+
+@media screen and (max-width:539px) {
+    .textDiv{
+      font-size: 1.2em;
+      margin-top: 20%;
+    }
+
+    .Header{
+        width: 100%;
+        height: 13%;
+    }
+
+    .HireBtn{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 2em;
+
+      #t{
+        font-size: 1em;
+      }
+    }
+
+    .learnMore{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+    .threeDImage{
+      height: 50%;
+      top: 50%;
+      width: 100%;
+      left: auto;
+      right: auto;
+    }
+  }
+  
+
+@media screen and (min-width:1025px) {
+  .threeDImage{
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10%;
+  }
+  .HireBtn{
+    width: 20%;
+    height: 10%;
+    margin-left: 10%;
+  }
+}
+
+//telefon
+
+  @media screen and (max-width:391px) {
+    .textDiv{
+      font-size: 1em;
+      .meTekst{
+        width: 42%;
+
+      }
+    }
+
+    .more{
+
+      position: absolute;
+      left: 50%;
+      top: 20%;
+      margin: 0;
+
+      @include centering(space-evenly, center);
+      flex-direction: column;
+      
+      .learnMore{
+        width: 100%;
+        height: 15%;
+        @include centering(space-evenly, center);
+
+        .up{
+          top: -50%;
+        }
+
+        .iconLink{
+          width: 20%;
+          @include centering(center, center);
+          height: 100%;
+
+
+          .fontIcon{
+            padding: 1em;
+            width: 50%;
+
+            &:hover{
+              transform: scale(110%);
+            }
+          }
+        }
+
+
+
+
+
+
+
+        .iconLink{
+            width: 40%;
+            height: 80%;
+    
+        }
+      }
+    }
+  }
+  
+
+@media screen and (min-width:540px) and (max-width:1024px) {
+  .threeDImage{
+    height: 70%;
+    width: 80%;
+    margin-top: 10%;
+    margin-right: 5%;
+  }
+
+  .HireBtn{
+    width: 40%;
+    margin-top: -10%;
+    margin-left: 50%;
+    font-size: 1.75em;
+  }
+}

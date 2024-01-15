@@ -1,0 +1,42 @@
+@import "./colors";
+
+
+.Pages{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.threeDImage{
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    top: 25%;
+    right: 0%;
+
+    #mainImg{
+        width: 100%;
+        height: 100%;
+        animation: anim 5s infinite;
+        transition: all .5s ease-in-out;
+
+        &:hover{
+            filter: drop-shadow($mainGrayFont .1em .1em 1em);
+        
+        }
+    }
+}
+/*
+@keyframes anim{
+    0%{
+        transform: perspective(15em) rotateY(3deg);
+    }
+    50%{
+        transform: perspective(15em) rotateY(-3deg);
+    }
+    100%{
+        transform: perspective(15em) rotateY(3deg);
+    }
+}
+
+*/
