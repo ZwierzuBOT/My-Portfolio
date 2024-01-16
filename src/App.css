@@ -26,43 +26,6 @@ body {
   align-items: center;
 }
 
-.Pages {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-}
-
-.threeDImage {
-  width: 60%;
-  height: 70%;
-  position: absolute;
-  top: 25%;
-  right: 0%;
-}
-.threeDImage #mainImg {
-  width: 100%;
-  height: 100%;
-  animation: anim 5s infinite;
-  transition: all 0.5s ease-in-out;
-}
-.threeDImage #mainImg:hover {
-  filter: drop-shadow(#bebebe 0.1em 0.1em 1em);
-}
-
-/*
-@keyframes anim{
-    0%{
-        transform: perspective(15em) rotateY(3deg);
-    }
-    50%{
-        transform: perspective(15em) rotateY(-3deg);
-    }
-    100%{
-        transform: perspective(15em) rotateY(3deg);
-    }
-}
-
-*/
 .Header {
   width: 100%;
   height: 15%;
@@ -149,6 +112,43 @@ body {
   color: #bebebe;
 }
 
+.Pages {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.threeDImage {
+  width: 60%;
+  height: 70%;
+  position: absolute;
+  top: 25%;
+  right: 0%;
+}
+.threeDImage #mainImg {
+  width: 100%;
+  height: 100%;
+  animation: anim 5s infinite;
+  transition: all 0.5s ease-in-out;
+}
+.threeDImage #mainImg:hover {
+  filter: drop-shadow(#bebebe 0.1em 0.1em 1em);
+}
+
+/*
+@keyframes anim{
+    0%{
+        transform: perspective(15em) rotateY(3deg);
+    }
+    50%{
+        transform: perspective(15em) rotateY(-3deg);
+    }
+    100%{
+        transform: perspective(15em) rotateY(3deg);
+    }
+}
+
+*/
 .more {
   width: 40%;
   height: 40%;
