@@ -535,4 +535,9 @@ body {
   .textDiv.meTekst {
     font-size: 20em;
   }
+}
+.about {
+  width: 80%;
+  height: 100%;
+  background-color: #2b2b2b;
 }/*# sourceMappingURL=App.css.map */
