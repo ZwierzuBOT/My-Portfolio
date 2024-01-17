@@ -1,8 +1,12 @@
 @import "../../StartPage/styles/colors";
 
-
+@import "../../StartPage/styles/coolFuncs";
 .about{
     width: 80%;
     height: 100%;
     background-color:$mainGray ;
+    @include centering(space-around,center);
+    flex-direction: column;
+    
+    
 }
