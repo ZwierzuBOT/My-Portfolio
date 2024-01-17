@@ -4,9 +4,8 @@
 .more{
     width: 40%;
     height: 40%;
-    margin-top: 10%;
-    margin-left: 5%;
-
+    position: absolute;
+    top: 30%;
     @include centering(space-evenly,center);
     flex-direction: row;
     

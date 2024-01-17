@@ -21,8 +21,7 @@ const WritingText = () => {
         Mateusz Zwierzchowski, a 15-year-old enthusiast, is making waves in the 
         world of programming with his proficiency in React JS. Despite his young age, 
         Mateusz showcases an impressive talent for crafting innovative and efficient 
-        web applications. His passion for coding extends 
-        beyond the conventional, setting him apart as a promising young developer.
+        web applications.
         </p>
     </div>
     </>
