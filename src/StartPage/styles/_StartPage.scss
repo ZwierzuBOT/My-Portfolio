@@ -21,7 +21,7 @@
         transition: all .5s ease-in-out;
 
         &:hover{
-            filter: drop-shadow($mainGrayFont .1em .1em 1em);
+            filter: drop-shadow($mainGrayFont .05em .05em 0.3em);
         
         }
     }
