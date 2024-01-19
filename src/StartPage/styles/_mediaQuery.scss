@@ -1,8 +1,8 @@
 @import "../styles/coolFuncs";
 @import "../styles/colors";
 
-//mobile S
-@media screen and (max-width: 320px) {
+//mobile S and M
+@media screen and (min-width: 320px) and (max-width: 375px){
   .Header {
     height: 15%;
     .Info {
@@ -35,14 +35,87 @@
     height: 35%;
     top: 65%;
     left: 22%;
+    z-index: 1;
   }
-
+  
   .more {
     width: 100%;
     height: 20%;
     top: 45%;
     left: auto;
     right: auto;
+    z-index: 2;
+    
+    .learnMore {
+      width: 60%;
+      height: 50%;
+      
+      .up {
+        top: -30%;
+      }
+      
+      .iconLink {
+        width: 20%;
+        height: 40%;
+        
+        .fontIcon {
+          width: 100%;
+          height: 100%;
+          
+          &:hover {
+            transform: scale(105%);
+          }
+        }
+      }
+    }
+  }
+}
+
+// mobile L
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  
+  .Header {
+    height: 14%;
+    .Info {
+      .HeaderBtn {
+        font-size: 1.5em;
+        padding: 0.5em;
+      }
+    }
+  }
+  
+  
+  .textDiv {
+    margin-top: 20%;
+    left: 2%;
+    
+    .intro {
+      font-size: 1.5em;
+    }
+    .Typewriter {
+      font-size: 1.5em;
+    }
+    
+    .meTekst {
+      width: 90%;
+      font-size: 0.85em;
+    }
+  }
+  .threeDImage {
+    width: 50%;
+    height: 35%;
+    top: 65%;
+    left: 25%;
+    z-index: 1;
+  }
+  
+  .more {
+    width: 80%;
+    height: 20%;
+    top: 50%;
+    left: 10%;
+    right: 0;
 
     .learnMore {
       width: 60%;
@@ -67,12 +140,38 @@
       }
     }
   }
+
+
 }
 
-
-
-@media screen and (min-width: 321px) and (max-width: 375px) {
-
-
+//tablet
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .Header {
+    height: 14%;
+    .Info {
+      .HeaderBtn {
+        font-size:2.3em;
+        padding: 0.5em;
+      }
+    }
+  }
   
+  
+  .textDiv {
+    margin-top: 14%;
+    left: 2%;
+    
+    .intro {
+      font-size: 2.3em;
+      margin-left:0 ;
+    }
+    .Typewriter {
+      font-size: 2.3em;
+    }
+    
+    .meTekst {
+      width: 90%;
+      font-size: 0.85em;
+    }
+  }
 }
