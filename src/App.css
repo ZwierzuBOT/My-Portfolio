@@ -262,7 +262,7 @@ body {
     height: 15%;
   }
   .Header .Info .HeaderBtn {
-    font-size: 1.2em;
+    font-size: 1.5em;
     padding: 0.5em;
   }
   .textDiv {
@@ -421,6 +421,193 @@ body {
   .more .learnMore .iconLink {
     width: 20%;
     height: 35%;
+  }
+  .more .learnMore .iconLink .fontIcon {
+    width: 100%;
+    height: 100%;
+  }
+  .more .learnMore .iconLink .fontIcon:hover {
+    transform: scale(110%);
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .Header {
+    height: 14%;
+  }
+  .Header .Info .HeaderBtn {
+    font-size: 3em;
+    padding: 0.5em;
+  }
+  .textDiv {
+    margin-top: 14%;
+    left: 2%;
+  }
+  .textDiv .intro {
+    font-size: 2.3em;
+    margin-left: 0;
+  }
+  .textDiv .Typewriter {
+    font-size: 2.3em;
+  }
+  .textDiv .meTekst {
+    width: 90%;
+    font-size: 1.7em;
+  }
+  .threeDImage {
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 48%;
+    z-index: 1;
+  }
+  .more {
+    width: 70%;
+    height: 50%;
+    top: 45%;
+    left: -10%;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .more .learnMore {
+    width: 60%;
+    height: 40%;
+  }
+  .more .learnMore .up {
+    font-size: 3em;
+    top: 0%;
+    left: 0;
+  }
+  .more .learnMore .iconLink {
+    width: 20%;
+    height: 35%;
+  }
+  .more .learnMore .iconLink .fontIcon {
+    width: 100%;
+    height: 100%;
+  }
+  .more .learnMore .iconLink .fontIcon:hover {
+    transform: scale(110%);
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .Header {
+    height: 14%;
+  }
+  .Header .Info .HeaderBtn {
+    font-size: 4em;
+    padding: 0.5em;
+  }
+  .textDiv {
+    margin-top: 14%;
+    left: 2%;
+  }
+  .textDiv .intro {
+    font-size: 4em;
+    margin-left: 0;
+  }
+  .textDiv .Typewriter {
+    font-size: 4em;
+  }
+  .textDiv .meTekst {
+    width: 90%;
+    font-size: 2.5em;
+  }
+  .threeDImage {
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 48%;
+    z-index: 1;
+  }
+  .more {
+    width: 70%;
+    height: 50%;
+    top: 45%;
+    left: -10%;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .more .learnMore {
+    width: 60%;
+    height: 40%;
+  }
+  .more .learnMore .up {
+    font-size: 4em;
+    top: 0%;
+    left: 0;
+  }
+  .more .learnMore .iconLink {
+    width: 20%;
+    height: 35%;
+  }
+  .more .learnMore .iconLink .fontIcon {
+    width: 100%;
+    height: 100%;
+  }
+  .more .learnMore .iconLink .fontIcon:hover {
+    transform: scale(110%);
+  }
+}
+@media screen and (min-width: 1441px) {
+  .Header {
+    height: 14%;
+  }
+  .Header .Info .HeaderBtn {
+    font-size: 8em;
+    padding: 0.5em;
+  }
+  .textDiv {
+    margin-top: 14%;
+    left: 2%;
+  }
+  .textDiv .intro {
+    font-size: 6em;
+    margin-left: 0;
+  }
+  .textDiv .Typewriter {
+    font-size: 6em;
+  }
+  .textDiv .meTekst {
+    width: 90%;
+    font-size: 4em;
+  }
+  .threeDImage {
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 48%;
+    z-index: 1;
+  }
+  .more {
+    width: 70%;
+    height: 50%;
+    top: 45%;
+    left: -10%;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .more .learnMore {
+    width: 70%;
+    height: 50%;
+  }
+  .more .learnMore .up {
+    font-size: 6em;
+    top: 10%;
+    left: 10%;
+  }
+  .more .learnMore .iconLink {
+    width: 20%;
+    height: 35%;
+    padding: 2em;
   }
   .more .learnMore .iconLink .fontIcon {
     width: 100%;

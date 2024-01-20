@@ -82,7 +82,7 @@
     height: 15%;
     .Info {
       .HeaderBtn {
-        font-size: 1.2em;
+        font-size: 1.5em;
         padding: 0.5em;
       }
     }
@@ -295,4 +295,236 @@
     }
   }
 
+}
+
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+  .Header {
+    height: 14%;
+    .Info {
+      .HeaderBtn {
+        font-size:3em;
+        padding: 0.5em;
+      }
+    }
+  }
+  
+  
+  .textDiv {
+    margin-top: 14%;
+    left: 2%;
+    
+    .intro {
+      font-size: 2.3em;
+      margin-left:0 ;
+    }
+    .Typewriter {
+      font-size: 2.3em;
+    }
+    
+    .meTekst {
+      width: 90%;
+      font-size: 1.7em;
+    }
+  }
+
+
+.threeDImage{
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 48%;
+    z-index: 1;
+}
+  .more {
+    width: 70%;
+    height: 50%;
+    top: 45%;
+    left: -10%;
+    right: 0;
+
+    @include centering(space-evenly,center);
+    flex-direction: column;
+
+
+    .learnMore {
+      width: 60%;
+      height: 40%;
+
+      .up {
+        font-size: 3em;
+        top: 0%;
+        left: 0;
+      }
+
+      .iconLink {
+        width: 20%;
+        height: 35%;
+
+        .fontIcon {
+          width: 100%;
+          height: 100%;
+
+          &:hover {
+            transform: scale(110%);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width:1025px) and (max-width:1440px){
+  .Header {
+    height: 14%;
+    .Info {
+      .HeaderBtn {
+        font-size:4em;
+        padding: 0.5em;
+      }
+    }
+  }
+  
+  
+  .textDiv {
+    margin-top: 14%;
+    left: 2%;
+    
+    .intro {
+      font-size: 4em;
+      margin-left:0 ;
+    }
+    .Typewriter {
+      font-size: 4em;
+    }
+    
+    .meTekst {
+      width: 90%;
+      font-size: 2.5em;
+    }
+  }
+
+
+.threeDImage{
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 48%;
+    z-index: 1;
+}
+  .more {
+    width: 70%;
+    height: 50%;
+    top: 45%;
+    left: -10%;
+    right: 0;
+
+    @include centering(space-evenly,center);
+    flex-direction: column;
+
+
+    .learnMore {
+      width: 60%;
+      height: 40%;
+
+      .up {
+        font-size: 4em;
+        top: 0%;
+        left: 0;
+      }
+
+      .iconLink {
+        width: 20%;
+        height: 35%;
+
+        .fontIcon {
+          width: 100%;
+          height: 100%;
+
+          &:hover {
+            transform: scale(110%);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width:1441px) {
+  .Header {
+    height: 14%;
+    .Info {
+      .HeaderBtn {
+        font-size:8em;
+        padding: 0.5em;
+      }
+    }
+  }
+  
+  
+  .textDiv {
+    margin-top: 14%;
+    left: 2%;
+    
+    .intro {
+      font-size: 6em;
+      margin-left:0 ;
+    }
+    .Typewriter {
+      font-size: 6em;
+    }
+    
+    .meTekst {
+      width: 90%;
+      font-size: 4em;
+    }
+  }
+
+
+.threeDImage{
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 48%;
+    z-index: 1;
+}
+  .more {
+    width: 70%;
+    height: 50%;
+    top: 45%;
+    left: -10%;
+    right: 0;
+
+    @include centering(space-evenly,center);
+    flex-direction: column;
+
+
+    .learnMore {
+      width: 70%;
+      height: 50%;
+
+      .up {
+        font-size: 6em;
+        top: 10%;
+        left: 10%;
+      }
+
+      .iconLink {
+        width: 20%;
+        height: 35%;
+      padding: 2em;
+
+        .fontIcon {
+          width: 100%;
+          height: 100%;
+
+          &:hover {
+            transform: scale(110%);
+          }
+        }
+      }
+    }
+  }
 }
