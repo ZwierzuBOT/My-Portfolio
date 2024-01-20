@@ -494,32 +494,32 @@ body {
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
   .Header {
-    height: 14%;
+    height: 17%;
   }
   .Header .Info .HeaderBtn {
-    font-size: 4em;
+    font-size: 3em;
     padding: 0.5em;
   }
   .textDiv {
-    margin-top: 14%;
+    margin-top: 10%;
     left: 2%;
   }
   .textDiv .intro {
-    font-size: 4em;
+    font-size: 2.8em;
     margin-left: 0;
   }
   .textDiv .Typewriter {
-    font-size: 4em;
+    font-size: 2.8em;
   }
   .textDiv .meTekst {
     width: 90%;
-    font-size: 2.5em;
+    font-size: 1em;
   }
   .threeDImage {
-    width: 50%;
+    width: 30%;
     height: 50%;
     top: 50%;
-    left: 48%;
+    left: 60%;
     z-index: 1;
   }
   .more {
@@ -534,11 +534,11 @@ body {
     flex-direction: column;
   }
   .more .learnMore {
-    width: 60%;
+    width: 50%;
     height: 40%;
   }
   .more .learnMore .up {
-    font-size: 4em;
+    font-size: 2em;
     top: 0%;
     left: 0;
   }
